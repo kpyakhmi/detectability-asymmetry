@@ -1,0 +1,18 @@
+# secrets
+.env
+.env.*
+
+# notebook / python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# experiment outputs
+*.jsonl
+*.json
+!.env.example
+detectability-asymmetry-outputs/
+
+# os
+.DS_Store
+Thumbs.db
